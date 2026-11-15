@@ -1,0 +1,988 @@
+{
+  "source_url": "https://raw.githubusercontent.com/ARY2260/openpom/main/openpom/data/curated_datasets/curated_GS_LF_merged_4983.csv",
+  "rows": 4983,
+  "columns": 140,
+  "column_names": [
+    "nonStereoSMILES",
+    "descriptors",
+    "alcoholic",
+    "aldehydic",
+    "alliaceous",
+    "almond",
+    "amber",
+    "animal",
+    "anisic",
+    "apple",
+    "apricot",
+    "aromatic",
+    "balsamic",
+    "banana",
+    "beefy",
+    "bergamot",
+    "berry",
+    "bitter",
+    "black currant",
+    "brandy",
+    "burnt",
+    "buttery",
+    "cabbage",
+    "camphoreous",
+    "caramellic",
+    "cedar",
+    "celery",
+    "chamomile",
+    "cheesy",
+    "cherry",
+    "chocolate",
+    "cinnamon",
+    "citrus",
+    "clean",
+    "clove",
+    "cocoa",
+    "coconut",
+    "coffee",
+    "cognac",
+    "cooked",
+    "cooling",
+    "cortex",
+    "coumarinic",
+    "creamy",
+    "cucumber",
+    "dairy",
+    "dry",
+    "earthy",
+    "ethereal",
+    "fatty",
+    "fermented",
+    "fishy",
+    "floral",
+    "fresh",
+    "fruit skin",
+    "fruity",
+    "garlic",
+    "gassy",
+    "geranium",
+    "grape",
+    "grapefruit",
+    "grassy",
+    "green",
+    "hawthorn",
+    "hay",
+    "hazelnut",
+    "herbal",
+    "honey",
+    "hyacinth",
+    "jasmin",
+    "juicy",
+    "ketonic",
+    "lactonic",
+    "lavender",
+    "leafy",
+    "leathery",
+    "lemon",
+    "lily",
+    "malty",
+    "meaty",
+    "medicinal",
+    "melon",
+    "metallic",
+    "milky",
+    "mint",
+    "muguet",
+    "mushroom",
+    "musk",
+    "musty",
+    "natural",
+    "nutty",
+    "odorless",
+    "oily",
+    "onion",
+    "orange",
+    "orangeflower",
+    "orris",
+    "ozone",
+    "peach",
+    "pear",
+    "phenolic",
+    "pine",
+    "pineapple",
+    "plum",
+    "popcorn",
+    "potato",
+    "powdery",
+    "pungent",
+    "radish",
+    "raspberry",
+    "ripe",
+    "roasted",
+    "rose",
+    "rummy",
+    "sandalwood",
+    "savory",
+    "sharp",
+    "smoky",
+    "soapy",
+    "solvent",
+    "sour",
+    "spicy",
+    "strawberry",
+    "sulfurous",
+    "sweaty",
+    "sweet",
+    "tea",
+    "terpenic",
+    "tobacco",
+    "tomato",
+    "tropical",
+    "vanilla",
+    "vegetable",
+    "vetiver",
+    "violet",
+    "warm",
+    "waxy",
+    "weedy",
+    "winey",
+    "woody"
+  ],
+  "smiles_column": "nonStereoSMILES",
+  "descriptor_text_column": "descriptors",
+  "missing_values_by_column": {},
+  "missing_smiles": 0,
+  "invalid_smiles": 0,
+  "duplicate_smiles_after_first": 0,
+  "descriptor_count": 138,
+  "descriptor_positive_counts": {
+    "alcoholic": 105,
+    "aldehydic": 144,
+    "alliaceous": 126,
+    "almond": 87,
+    "amber": 101,
+    "animal": 124,
+    "anisic": 87,
+    "apple": 308,
+    "apricot": 78,
+    "aromatic": 76,
+    "balsamic": 298,
+    "banana": 128,
+    "beefy": 43,
+    "bergamot": 32,
+    "berry": 156,
+    "bitter": 64,
+    "black currant": 43,
+    "brandy": 42,
+    "burnt": 186,
+    "buttery": 139,
+    "cabbage": 46,
+    "camphoreous": 132,
+    "caramellic": 234,
+    "cedar": 49,
+    "celery": 42,
+    "chamomile": 31,
+    "cheesy": 187,
+    "cherry": 82,
+    "chocolate": 69,
+    "cinnamon": 66,
+    "citrus": 379,
+    "clean": 97,
+    "clove": 34,
+    "cocoa": 118,
+    "coconut": 91,
+    "coffee": 110,
+    "cognac": 112,
+    "cooked": 87,
+    "cooling": 81,
+    "cortex": 56,
+    "coumarinic": 60,
+    "creamy": 190,
+    "cucumber": 46,
+    "dairy": 123,
+    "dry": 166,
+    "earthy": 328,
+    "ethereal": 287,
+    "fatty": 598,
+    "fermented": 147,
+    "fishy": 78,
+    "floral": 1100,
+    "fresh": 533,
+    "fruit skin": 52,
+    "fruity": 1902,
+    "garlic": 120,
+    "gassy": 35,
+    "geranium": 61,
+    "grape": 91,
+    "grapefruit": 74,
+    "grassy": 64,
+    "green": 1446,
+    "hawthorn": 34,
+    "hay": 74,
+    "hazelnut": 52,
+    "herbal": 756,
+    "honey": 157,
+    "hyacinth": 58,
+    "jasmin": 103,
+    "juicy": 51,
+    "ketonic": 48,
+    "lactonic": 67,
+    "lavender": 44,
+    "leafy": 139,
+    "leathery": 54,
+    "lemon": 81,
+    "lily": 71,
+    "malty": 33,
+    "meaty": 299,
+    "medicinal": 71,
+    "melon": 132,
+    "metallic": 134,
+    "milky": 87,
+    "mint": 226,
+    "muguet": 56,
+    "mushroom": 99,
+    "musk": 98,
+    "musty": 200,
+    "natural": 77,
+    "nutty": 366,
+    "odorless": 200,
+    "oily": 388,
+    "onion": 177,
+    "orange": 98,
+    "orangeflower": 33,
+    "orris": 59,
+    "ozone": 39,
+    "peach": 95,
+    "pear": 130,
+    "phenolic": 180,
+    "pine": 78,
+    "pineapple": 205,
+    "plum": 61,
+    "popcorn": 36,
+    "potato": 56,
+    "powdery": 167,
+    "pungent": 198,
+    "radish": 55,
+    "raspberry": 43,
+    "ripe": 87,
+    "roasted": 305,
+    "rose": 332,
+    "rummy": 89,
+    "sandalwood": 36,
+    "savory": 128,
+    "sharp": 104,
+    "smoky": 72,
+    "soapy": 50,
+    "solvent": 59,
+    "sour": 72,
+    "spicy": 464,
+    "strawberry": 49,
+    "sulfurous": 402,
+    "sweaty": 38,
+    "sweet": 1429,
+    "tea": 56,
+    "terpenic": 49,
+    "tobacco": 102,
+    "tomato": 37,
+    "tropical": 386,
+    "vanilla": 111,
+    "vegetable": 287,
+    "vetiver": 38,
+    "violet": 66,
+    "warm": 96,
+    "waxy": 488,
+    "weedy": 44,
+    "winey": 221,
+    "woody": 679
+  },
+  "descriptor_text_frequency": {
+    "fruity": 1902,
+    "green": 1446,
+    "sweet": 1429,
+    "floral": 1100,
+    "herbal": 756,
+    "woody": 679,
+    "fatty": 598,
+    "fresh": 533,
+    "waxy": 488,
+    "spicy": 464,
+    "sulfurous": 402,
+    "oily": 388,
+    "tropical": 386,
+    "citrus": 379,
+    "nutty": 366,
+    "rose": 332,
+    "earthy": 328,
+    "apple": 308,
+    "roasted": 305,
+    "meaty": 299,
+    "balsamic": 298,
+    "ethereal": 287,
+    "vegetable": 287,
+    "caramellic": 234,
+    "mint": 226,
+    "winey": 221,
+    "pineapple": 205,
+    "musty": 200,
+    "odorless": 200,
+    "pungent": 198,
+    "creamy": 190,
+    "cheesy": 187,
+    "burnt": 186,
+    "phenolic": 180,
+    "onion": 177,
+    "powdery": 167,
+    "dry": 166,
+    "honey": 157,
+    "berry": 156,
+    "fermented": 147,
+    "aldehydic": 144,
+    "buttery": 139,
+    "leafy": 139,
+    "metallic": 134,
+    "camphoreous": 132,
+    "melon": 132,
+    "pear": 130,
+    "savory": 128,
+    "banana": 128,
+    "alliaceous": 126,
+    "animal": 124,
+    "dairy": 123,
+    "garlic": 120,
+    "cocoa": 118,
+    "cognac": 112,
+    "vanilla": 111,
+    "coffee": 110,
+    "alcoholic": 105,
+    "sharp": 104,
+    "jasmin": 103,
+    "tobacco": 102,
+    "amber": 101,
+    "mushroom": 99,
+    "musk": 98,
+    "orange": 98,
+    "clean": 97,
+    "warm": 96,
+    "peach": 95,
+    "coconut": 91,
+    "grape": 91,
+    "rummy": 89,
+    "almond": 87,
+    "milky": 87,
+    "cooked": 87,
+    "anisic": 87,
+    "ripe": 87,
+    "cherry": 82,
+    "cooling": 81,
+    "lemon": 81,
+    "fishy": 78,
+    "pine": 78,
+    "apricot": 78,
+    "natural": 77,
+    "aromatic": 76,
+    "hay": 74,
+    "grapefruit": 74,
+    "sour": 72,
+    "smoky": 72,
+    "medicinal": 71,
+    "lily": 71,
+    "chocolate": 69,
+    "lactonic": 67,
+    "cinnamon": 66,
+    "violet": 66,
+    "bitter": 64,
+    "grassy": 64,
+    "geranium": 61,
+    "plum": 61,
+    "coumarinic": 60,
+    "solvent": 59,
+    "orris": 59,
+    "hyacinth": 58,
+    "tea": 56,
+    "cortex": 56,
+    "potato": 56,
+    "muguet": 56,
+    "radish": 55,
+    "leathery": 54,
+    "fruit skin": 52,
+    "hazelnut": 52,
+    "juicy": 51,
+    "soapy": 50,
+    "cedar": 49,
+    "strawberry": 49,
+    "terpenic": 49,
+    "ketonic": 48,
+    "cabbage": 46,
+    "cucumber": 46,
+    "weedy": 44,
+    "lavender": 44,
+    "beefy": 43,
+    "raspberry": 43,
+    "black currant": 43,
+    "brandy": 42,
+    "celery": 42,
+    "ozone": 39,
+    "sweaty": 38,
+    "vetiver": 38,
+    "tomato": 37,
+    "popcorn": 36,
+    "sandalwood": 36,
+    "gassy": 35,
+    "clove": 34,
+    "hawthorn": 34,
+    "malty": 33,
+    "orangeflower": 33,
+    "bergamot": 32,
+    "chamomile": 31
+  },
+  "binary_target_values": {
+    "alcoholic": [
+      "0",
+      "1"
+    ],
+    "aldehydic": [
+      "0",
+      "1"
+    ],
+    "alliaceous": [
+      "0",
+      "1"
+    ],
+    "almond": [
+      "0",
+      "1"
+    ],
+    "amber": [
+      "0",
+      "1"
+    ],
+    "animal": [
+      "0",
+      "1"
+    ],
+    "anisic": [
+      "0",
+      "1"
+    ],
+    "apple": [
+      "0",
+      "1"
+    ],
+    "apricot": [
+      "0",
+      "1"
+    ],
+    "aromatic": [
+      "0",
+      "1"
+    ],
+    "balsamic": [
+      "0",
+      "1"
+    ],
+    "banana": [
+      "0",
+      "1"
+    ],
+    "beefy": [
+      "0",
+      "1"
+    ],
+    "bergamot": [
+      "0",
+      "1"
+    ],
+    "berry": [
+      "0",
+      "1"
+    ],
+    "bitter": [
+      "0",
+      "1"
+    ],
+    "black currant": [
+      "0",
+      "1"
+    ],
+    "brandy": [
+      "0",
+      "1"
+    ],
+    "burnt": [
+      "0",
+      "1"
+    ],
+    "buttery": [
+      "0",
+      "1"
+    ],
+    "cabbage": [
+      "0",
+      "1"
+    ],
+    "camphoreous": [
+      "0",
+      "1"
+    ],
+    "caramellic": [
+      "0",
+      "1"
+    ],
+    "cedar": [
+      "0",
+      "1"
+    ],
+    "celery": [
+      "0",
+      "1"
+    ],
+    "chamomile": [
+      "0",
+      "1"
+    ],
+    "cheesy": [
+      "0",
+      "1"
+    ],
+    "cherry": [
+      "0",
+      "1"
+    ],
+    "chocolate": [
+      "0",
+      "1"
+    ],
+    "cinnamon": [
+      "0",
+      "1"
+    ],
+    "citrus": [
+      "0",
+      "1"
+    ],
+    "clean": [
+      "0",
+      "1"
+    ],
+    "clove": [
+      "0",
+      "1"
+    ],
+    "cocoa": [
+      "0",
+      "1"
+    ],
+    "coconut": [
+      "0",
+      "1"
+    ],
+    "coffee": [
+      "0",
+      "1"
+    ],
+    "cognac": [
+      "0",
+      "1"
+    ],
+    "cooked": [
+      "0",
+      "1"
+    ],
+    "cooling": [
+      "0",
+      "1"
+    ],
+    "cortex": [
+      "0",
+      "1"
+    ],
+    "coumarinic": [
+      "0",
+      "1"
+    ],
+    "creamy": [
+      "0",
+      "1"
+    ],
+    "cucumber": [
+      "0",
+      "1"
+    ],
+    "dairy": [
+      "0",
+      "1"
+    ],
+    "dry": [
+      "0",
+      "1"
+    ],
+    "earthy": [
+      "0",
+      "1"
+    ],
+    "ethereal": [
+      "0",
+      "1"
+    ],
+    "fatty": [
+      "0",
+      "1"
+    ],
+    "fermented": [
+      "0",
+      "1"
+    ],
+    "fishy": [
+      "0",
+      "1"
+    ],
+    "floral": [
+      "0",
+      "1"
+    ],
+    "fresh": [
+      "0",
+      "1"
+    ],
+    "fruit skin": [
+      "0",
+      "1"
+    ],
+    "fruity": [
+      "0",
+      "1"
+    ],
+    "garlic": [
+      "0",
+      "1"
+    ],
+    "gassy": [
+      "0",
+      "1"
+    ],
+    "geranium": [
+      "0",
+      "1"
+    ],
+    "grape": [
+      "0",
+      "1"
+    ],
+    "grapefruit": [
+      "0",
+      "1"
+    ],
+    "grassy": [
+      "0",
+      "1"
+    ],
+    "green": [
+      "0",
+      "1"
+    ],
+    "hawthorn": [
+      "0",
+      "1"
+    ],
+    "hay": [
+      "0",
+      "1"
+    ],
+    "hazelnut": [
+      "0",
+      "1"
+    ],
+    "herbal": [
+      "0",
+      "1"
+    ],
+    "honey": [
+      "0",
+      "1"
+    ],
+    "hyacinth": [
+      "0",
+      "1"
+    ],
+    "jasmin": [
+      "0",
+      "1"
+    ],
+    "juicy": [
+      "0",
+      "1"
+    ],
+    "ketonic": [
+      "0",
+      "1"
+    ],
+    "lactonic": [
+      "0",
+      "1"
+    ],
+    "lavender": [
+      "0",
+      "1"
+    ],
+    "leafy": [
+      "0",
+      "1"
+    ],
+    "leathery": [
+      "0",
+      "1"
+    ],
+    "lemon": [
+      "0",
+      "1"
+    ],
+    "lily": [
+      "0",
+      "1"
+    ],
+    "malty": [
+      "0",
+      "1"
+    ],
+    "meaty": [
+      "0",
+      "1"
+    ],
+    "medicinal": [
+      "0",
+      "1"
+    ],
+    "melon": [
+      "0",
+      "1"
+    ],
+    "metallic": [
+      "0",
+      "1"
+    ],
+    "milky": [
+      "0",
+      "1"
+    ],
+    "mint": [
+      "0",
+      "1"
+    ],
+    "muguet": [
+      "0",
+      "1"
+    ],
+    "mushroom": [
+      "0",
+      "1"
+    ],
+    "musk": [
+      "0",
+      "1"
+    ],
+    "musty": [
+      "0",
+      "1"
+    ],
+    "natural": [
+      "0",
+      "1"
+    ],
+    "nutty": [
+      "0",
+      "1"
+    ],
+    "odorless": [
+      "0",
+      "1"
+    ],
+    "oily": [
+      "0",
+      "1"
+    ],
+    "onion": [
+      "0",
+      "1"
+    ],
+    "orange": [
+      "0",
+      "1"
+    ],
+    "orangeflower": [
+      "0",
+      "1"
+    ],
+    "orris": [
+      "0",
+      "1"
+    ],
+    "ozone": [
+      "0",
+      "1"
+    ],
+    "peach": [
+      "0",
+      "1"
+    ],
+    "pear": [
+      "0",
+      "1"
+    ],
+    "phenolic": [
+      "0",
+      "1"
+    ],
+    "pine": [
+      "0",
+      "1"
+    ],
+    "pineapple": [
+      "0",
+      "1"
+    ],
+    "plum": [
+      "0",
+      "1"
+    ],
+    "popcorn": [
+      "0",
+      "1"
+    ],
+    "potato": [
+      "0",
+      "1"
+    ],
+    "powdery": [
+      "0",
+      "1"
+    ],
+    "pungent": [
+      "0",
+      "1"
+    ],
+    "radish": [
+      "0",
+      "1"
+    ],
+    "raspberry": [
+      "0",
+      "1"
+    ],
+    "ripe": [
+      "0",
+      "1"
+    ],
+    "roasted": [
+      "0",
+      "1"
+    ],
+    "rose": [
+      "0",
+      "1"
+    ],
+    "rummy": [
+      "0",
+      "1"
+    ],
+    "sandalwood": [
+      "0",
+      "1"
+    ],
+    "savory": [
+      "0",
+      "1"
+    ],
+    "sharp": [
+      "0",
+      "1"
+    ],
+    "smoky": [
+      "0",
+      "1"
+    ],
+    "soapy": [
+      "0",
+      "1"
+    ],
+    "solvent": [
+      "0",
+      "1"
+    ],
+    "sour": [
+      "0",
+      "1"
+    ],
+    "spicy": [
+      "0",
+      "1"
+    ],
+    "strawberry": [
+      "0",
+      "1"
+    ],
+    "sulfurous": [
+      "0",
+      "1"
+    ],
+    "sweaty": [
+      "0",
+      "1"
+    ],
+    "sweet": [
+      "0",
+      "1"
+    ],
+    "tea": [
+      "0",
+      "1"
+    ],
+    "terpenic": [
+      "0",
+      "1"
+    ],
+    "tobacco": [
+      "0",
+      "1"
+    ],
+    "tomato": [
+      "0",
+      "1"
+    ],
+    "tropical": [
+      "0",
+      "1"
+    ],
+    "vanilla": [
+      "0",
+      "1"
+    ],
+    "vegetable": [
+      "0",
+      "1"
+    ],
+    "vetiver": [
+      "0",
+      "1"
+    ],
+    "violet": [
+      "0",
+      "1"
+    ],
+    "warm": [
+      "0",
+      "1"
+    ],
+    "waxy": [
+      "0",
+      "1"
+    ],
+    "weedy": [
+      "0",
+      "1"
+    ],
+    "winey": [
+      "0",
+      "1"
+    ],
+    "woody": [
+      "0",
+      "1"
+    ]
+  }
+}

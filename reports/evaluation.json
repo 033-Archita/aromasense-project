@@ -1,0 +1,97 @@
+{
+  "threshold": 0.5,
+  "macro_f1": 0.29928047053081686,
+  "micro_f1": 0.39581278919820984,
+  "macro_precision": 0.24004141536149531,
+  "micro_precision": 0.3148304573428261,
+  "macro_recall": 0.43056627261988384,
+  "micro_recall": 0.5328839869281046,
+  "macro_roc_auc_defined_labels": 0.8300804626656301,
+  "macro_pr_auc_defined_labels": 0.28783523817977025,
+  "roc_auc_label_count": 138,
+  "pr_auc_label_count": 138,
+  "model": "One binary ExtraTreesClassifier per descriptor (tuned)",
+  "selected_hyperparameters": {
+    "max_features": "sqrt",
+    "min_samples_leaf": 2,
+    "n_estimators": 20,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "split": "random 80/20 test split, seed 42; tuning used a 75/25 split within training, seed 43",
+  "train_rows": 3986,
+  "test_rows": 997,
+  "label_count": 138,
+  "fingerprint_bits": 2048,
+  "morgan_radius": 2,
+  "tuning_metric": "validation macro PR-AUC (mean average precision across labels)",
+  "validation_rows": 997,
+  "baseline_test_metrics": {
+    "threshold": 0.5,
+    "macro_f1": 0.22855386502718494,
+    "micro_f1": 0.3756288429290106,
+    "macro_precision": 0.30889111447910145,
+    "micro_precision": 0.41491726352185726,
+    "macro_recall": 0.20861553893442952,
+    "micro_recall": 0.3431372549019608,
+    "macro_roc_auc_defined_labels": 0.7503462262240966,
+    "macro_pr_auc_defined_labels": 0.21418616443863506,
+    "roc_auc_label_count": 138,
+    "pr_auc_label_count": 138
+  },
+  "tuning_candidates": [
+    {
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 20,
+      "validation_macro_pr_auc": 0.21500677685380834,
+      "validation_rows": 997
+    },
+    {
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 20,
+      "validation_macro_pr_auc": 0.2594730779836987,
+      "validation_rows": 997
+    },
+    {
+      "max_features": "log2",
+      "min_samples_leaf": 1,
+      "n_estimators": 20,
+      "validation_macro_pr_auc": 0.2026907681366853,
+      "validation_rows": 997
+    }
+  ],
+  "notes": "Test set was not used for hyperparameter selection. Threshold metrics use 0.5. Macro PR-AUC is mean average precision for labels with positives in the evaluated split.",
+  "final_test_metrics_at_selected_threshold": {
+    "threshold": 0.6,
+    "macro_f1": 0.3076576613956213,
+    "micro_f1": 0.4010589013898081,
+    "macro_precision": 0.2936979780041448,
+    "micro_precision": 0.37334976236578066,
+    "macro_recall": 0.3591186355354835,
+    "micro_recall": 0.4332107843137255,
+    "macro_roc_auc_defined_labels": 0.8300804626656301,
+    "macro_pr_auc_defined_labels": 0.28783523817977025,
+    "roc_auc_label_count": 138,
+    "pr_auc_label_count": 138,
+    "model": "Frozen tuned Extra Trees model",
+    "selected_hyperparameters": {
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 20,
+      "class_weight": "balanced",
+      "random_state": 42
+    },
+    "selected_threshold": 0.6,
+    "threshold_selected_on": "validation split only",
+    "split": "reserved random 80/20 split, seed 42",
+    "train_rows": 3986,
+    "test_rows": 997,
+    "label_count": 138,
+    "test_used_for_tuning": false,
+    "test_used_for_threshold_selection": false,
+    "notes": "Final test metrics were computed after the model and global threshold were frozen. No test-driven tuning was performed."
+  },
+  "selected_operating_threshold": 0.6
+}

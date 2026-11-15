@@ -1,0 +1,16 @@
+export const molecules = [
+  { name: 'Vanillin', smiles: 'COc1cc(C=O)ccc1O', knownFor: 'the familiar scent of vanilla beans' },
+  { name: 'Limonene', smiles: 'CC1=CCCC(C1)C(=C)C', knownFor: 'the peel of oranges and lemons' },
+  { name: 'Linalool', smiles: 'C=CC(C)(O)CCC=C(C)C', knownFor: 'a scent found in lavender and some citrus oils' },
+  { name: 'Menthol', smiles: 'CC1CCC(C(C)C)C(O)C1', knownFor: 'the cooling scent of mint' },
+  { name: 'Eugenol', smiles: 'C=CCc1ccc(O)c(OC)c1', knownFor: 'the scent of cloves' },
+  { name: 'Benzaldehyde', smiles: 'O=Cc1ccccc1', knownFor: 'a scent often associated with bitter almond' },
+  { name: 'Ethyl butyrate', smiles: 'CCCC(=O)OCC', knownFor: 'a fruity note found in pineapple' },
+  { name: 'Isoamyl acetate', smiles: 'CC(=O)OCCC(C)C', knownFor: 'a scent often associated with ripe banana' },
+  { name: 'Citral', smiles: 'CC(C)=CCCC(C)=CC=O', knownFor: 'a lemon-like scent used in flavour and fragrance' },
+  { name: 'Geraniol', smiles: 'CC(C)=CCCC(C)=CCO', knownFor: 'a floral scent found in rose and geranium oils' },
+  { name: 'Methyl salicylate', smiles: 'COC(=O)c1ccccc1O', knownFor: 'the wintergreen scent of some topical rubs' },
+  { name: 'Coumarin', smiles: 'O=c1ccc2ccccc2o1', knownFor: 'a sweet scent found in tonka bean' },
+  { name: 'Indole', smiles: 'c1ccc2[nH]ccc2c1', knownFor: 'a compound found in jasmine and other flowers' },
+  { name: 'Camphor', smiles: 'CC12CCC(CC1=O)C2(C)C', knownFor: 'a strong scent found in camphor wood' },
+];

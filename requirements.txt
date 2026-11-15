@@ -1,0 +1,8 @@
+# Phase 1 molecular ML dependencies. Install with: python -m pip install -r requirements.txt
+pandas>=2.2,<4
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+rdkit>=2024.3
+joblib>=1.4,<2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
